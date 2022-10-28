@@ -2,11 +2,11 @@ import React from 'react'
 import GridItem from '../gridItem'
 import * as C from './styles'
 
-function Grid({ itens, setItens }) {
+const Grid = ({ itens, setItens }) => {
     const onDelete = (ID) => {
         const newArray = itens.filter((transaction) => transaction.id !== ID)
         setItens(newArray)
-        localStorage.setItem('transactions'.JSON.stringfy(newArray))
+        localStorage.setItem('transactions', JSON.stringfy(newArray))
     }
 
     return (
@@ -20,9 +20,9 @@ function Grid({ itens, setItens }) {
                 </C.Tr>
             </C.Thead>
             <C.Tbody>
-                {itens?.map((item, index) => {
+                {itens?.map((item, index) => (
                     <GridItem key={index} item={item} onDelete={onDelete} />
-                })}
+                ))}
             </C.Tbody>
         </C.Table>
     )
