@@ -52,11 +52,11 @@ const Form = ({ handleAdd, transactionsList, setTransactionsList }) => {
                     <C.Label htmlFor='rIncome'>Entrada</C.Label>
                     <C.Input
                         type="radio"
-                        id="rIncome"
+                        id="rExpense"
                         name='group1'
                         onChange={() => setExpense(!isExpense)}
                     />
-                    <C.Label htmlFor='rIncome'>Saída</C.Label>
+                    <C.Label htmlFor='rExpense'>Saída</C.Label>
                 </C.RadioGroup>
                 <C.Button onClick={handleSave}>ADICIONAR</C.Button>
             </C.Container>

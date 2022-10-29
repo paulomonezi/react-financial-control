@@ -4,6 +4,7 @@ import * as C from './styles'
 
 const Grid = ({ itens, setItens }) => {
     const onDelete = (ID) => {
+        window.confirm('Deseja realmente excluir?')
         const newArray = itens.filter((transaction) => transaction.id !== ID)
         setItens(newArray)
         localStorage.setItem('transactions', JSON.stringfy(newArray))
