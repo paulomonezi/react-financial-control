@@ -1,6 +1,6 @@
 # react-financial-control
 <br/><br/><br/>
-![](https://github.com/paulomonezi/react-financial-control/public/gifs/reactfinanceiro.gif)
+reactfinanceiro.
 
 
 ## Application purpose
