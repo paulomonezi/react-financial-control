@@ -1,6 +1,6 @@
 # react-financial-control
 <br/><br/><br/>
-reactfinanceiro.
+![](https://github.com/paulomonezi/react-financial-control/public/gifs/reactfinanceiro.gif)
 
 
 ## Application purpose
@@ -8,8 +8,8 @@ I've created this repository to pratice more from react web development, product
 <br/><br/>
 
 
-## If you want to run the project locally
-Simple as you might be thinking, just click on each moving segment and try to match the pictures, click on 'Reset Game' to try again
+## If you want to take a look
+https://paulomonezi.github.io/react-financial-control/ (this application use your browser local storage, so if you close it and re-open, you'll not lose the information :)
 <br/><br/>
 
 
