@@ -1,7 +1,6 @@
 # react-financial-control
 <br/><br/><br/>
-![](https://github.com/paulomonezi/react-financial-control/public/gifs/reactfinanceiro.gif)
-
+![reactfinanceiro](https://user-images.githubusercontent.com/95001803/198837855-fc95c442-b143-49f4-ad22-14a64cad9f35.gif)
 
 ## Application purpose
 I've created this repository to pratice more from react web development, production environment bug solutions and how they behave on multiples browsers.
