@@ -51,5 +51,5 @@ export const Button = styled.button`
     border-radius: 5px;
     cursor: pointer;
     color: #FFF;
-    background-color: teal;
+    background-color: #008080;
 `
